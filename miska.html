@@ -1,0 +1,142 @@
+<!DOCTYPE html> <!--Celoten prvi del je isti, ker sem hotela enotnost spletne strani-->
+<html>
+  <head> <!--Zacetek glave-->
+    <!--Naslov strani-->
+    <title>Vhodno-izhodne naprave</title>
+    <!--Povezava do css-->
+    <link rel="stylesheet" type="text/css" href= "style.css">
+    <!--Osnovni meta podatki-->
+	<meta charset="UTF-8">
+	<meta name="description" content="Vsebina spletne strani: Opis vhodno izhodnih naprav; tipkovnice, miške, mikrofona, zaslona, zvočnika.">
+	<meta name="keywords" content="vhodno izhodne naprave, miška, tipkovnica, mikrofon, zaslon, zvočnik">
+	<meta name="author" content="Anja Lampret">
+  </head><!--konec glave-->
+
+<!--Zacetek vsebine-->
+<body>
+
+<header><!--začetek glave spletne srani-->
+    <table class="naslov"><!--tabela s tremi vrsticami in dvema stolpcema, da je bolj pregledno, razred naslov-->
+    <tr><!--vrstica-->
+      <th><h1> Vhodno izhodne naprave</h1></th><!--glavni naslov, prvi stolpec-->
+      <th ><img src="logo_vienote_AnjaLampret.svg" width="200" height="200" class="logo"></th><!--logo, drugi stolpec-->
+    </table><!--konec tabele-->
+</header><!--konec glave spletne strani-->
+
+  <div class="predal"> <!--zacetek razreda predal oz. zacetek menija-->
+    <div class="nav_vrstica">  <!--zacetek razreda navigacijske vrstice-->
+
+      <ul> <!--Zacetek seznama glavnega menija-->
+        <li> <!--Prvi element glavnega menija-->
+          <a href="index.html">Domov</a> <!--Povezava na prvo stran-->
+        </li>
+
+        <li> <!--Drugi element glavnega menija, ki je spustni-->
+          <a href="">Vhodne naprave</a> 
+             <ul class="spustni"> <!--Zacetek menija vhodnih naprav-->
+            <li> 
+              <a href="tipkovnica.html">Tipkovnica</a> <!--Povezava na podstran tipkovnica-->
+            </li>
+            <li> 
+              <a href="miska.html">Miška</a> <!--Povezava na podstran miška-->
+            </li>
+          </ul> <!--Konec menija vhodnih enot-->
+        <li> <!--Tretji element glavnega menija, ki je spustni-->
+            <a href="">Izhodne naprave</span></a> 
+              <ul class="spustni"> <!--Zacetek menija izhodnih enot-->
+              <li> 
+                <a href="zaslon.html">Zaslon</a> <!--Povezava na podstran zaslon-->
+              </li>
+          </ul> <!--Konec menija izhodnih naprav-->
+        </li> <!--Konec drugega elementa glavnega menija-->
+
+        <li> <!--Zadnji element glavnega menija-->
+          <a href="oprojektu.html">O projektu</a> <!--Povezava na podstran o projektu-->
+        </li>
+      </ul> <!--Konec seznama glavnega menija-->
+    </div>
+  </div>
+
+<div class="vsebina"> <!--Zacetek dela, kjer je razred vsebina-->
+
+<p> <!--Prvi odstavek-->
+Najbolj poznane so tradicionalna mehanska računalniška miška z vrtljivo kroglico, 
+optična miška, ter laserska. Vse miške imajo stikala za levo, desno in sredinsko tipko, 
+razlikujejo pa se v zaznavanju gibanja.
+</p>
+
+<h2>Mehanska računalniška miška</h2> <!--Prvi podnaslov, mehanska miška-->
+
+<p> <!--Drugi odstavek-->
+Tradicionalne mehanske računalniške miške imajo na dnu vrtljivo gumijasto kroglico, 
+ki se premika, ko miško premikamo. Zraven sta še dve mehanski kolesi, en zazna gibanje miške v x-osi, 
+drug pa v y-osi. Ko miško premikamo gor in dol se obrača prvo kolo, levo in desno drugo kolo, 
+če pa jo premaknemo diagonalno, se obračata oba kolesa. 
+Razdalja, ki jo je naredila miška se pri takšni vrsti miške meri s svetlobnim žarkom, 
+ki je poleg kolesa. Ta se zaporedoma lomi, ko se kolo obrača. 
+Torej bolj, kot se kolo obrne, večkrat se je zlomil svetlobni žarek. 
+</p>
+
+<p> <!--Tretji odstavek-->
+To štetje in merjenje se dogaja v mikročipu v miški, ta pošlje podatke v računalnik in 
+prikažejo se takšni premiki miške na zaslonu. Takšna vrsta miške se danes skoraj ne uporablja več. 
+</p>
+</div> <!--Konec razreda vsebina-->
+
+<img src="mehanska_miska.jpg" width=400px height=300px class="slika1"> <!--Slika mehanske miške-->
+
+<div class="vsebina"> <!--Spet razred vsebina-->
+
+<h2>Optična računalniška miška</h2> <!--Drugi podnaslov, optična miška-->
+<p> <!--Cetrti odstavek-->
+Optične računalniške miške imajo namesto vrtljive kroglice na dnu optični senzor, 
+ki deluje kot nekakšna kamera z zelo velikim številom slik na sekundo (frame rate). 
+Zraven senzorja je majhna lučka (običajno rdeča LED), ki osvetli površino na kateri je miška. 
+Ta kamera v miški neprestano slika površino na kateri je, in primerja sliko s prejšnjo in 
+na podlagi njunega prekrivanja zazna za koliko in kam smo premaknili miško. 
+</p>
+
+<p> <!--Peti odstavek-->
+Da lahko miška čim bolj točno zazna premik potrebuje kamero s čim večjim številom slik na sekundo 
+(vsaj 2000 slik na sekundo) in čim boljšo ločljivostjo (dpi). Imajo pa optične miške boljšo sledilno 
+sposobnost kot tradicionalne in bolje delujejo na različnih površinah. 
+</p>
+</div> <!--Konec razreda vsebina-->
+
+<img src="opticni_miski.jpg" width=500px height=300px class="slika1"> <!--Slika optičnih mišk-->
+
+<div class="vsebina"> <!--Spet razred vsebina-->
+
+<h2>Laserska računalniška miška</h2> <!--Tretji podnaslov, laserska miška-->
+
+<p> <!--Sesti odstavek-->
+Laserska računalniška miška uporablja podobno tehnologijo kot optična. 
+Princip delovanja je podoben, le da laserska uporablja laser.
+ Laserske računalniške miške imajo večjo ločljivost kot optične. 
+ Očitna razlika je tudi pri sledilni sposobnosti oz. natančnosti, 
+ kjer so laserske miške dosti boljše kot optične. Bolje delujejo na več različnih površinah. 
+</p>
+
+<h2>Mera za občutljivost miške</h2> <!--Cetrti podnaslov, DPI-->
+
+<p> <!--Sedmi odstavek-->
+Mera za občutljivost ali tudi DPI je pomembna karakteristika računalniške miške. 
+Pove nam, kako občutljiva je miška za določen premik. DPI pomeni število pikslov na inch 
+(“dots per inch” oz. “pixels per inch”). Večji kot je DPI, bolj občutljiva je miška. 
+Npr., če je DPI 400 pomeni, da bo premik miške za 1 inch na zaslonu premaknil kurzor za 400 pikslov. 
+</p>
+
+</div> <!--Konec razreda vsebina-->
+
+<footer><!--noga spletne strani-->
+    <table class="vsebina">
+      <tr><!--vrstica-->
+        <th><!--stolpec-->
+        <p>Vhodno izhodne naprave © 2023 by AnjaL is licensed under CC BY-NC-SA 4.0</p><!--licenca-->
+        </th>
+      </tr>
+    </table><!--konec tabele-->
+  </footer><!--konec noge spletne strani-->
+
+</body>
+</html>

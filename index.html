@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head> <!--Zacetek glave-->
+    <!--Naslov strani-->
+    <title>Vhodno-izhodne naprave</title>
+    <!--Povezava do css-->
+    <link rel="stylesheet" type="text/css" href= "style.css">
+    <!--Osnovni meta podatki-->
+	<meta charset="UTF-8">
+	<meta name="description" content="Vsebina spletne strani: Opis vhodno izhodnih naprav; tipkovnice, miške, mikrofona, zaslona, zvočnika.">
+	<meta name="keywords" content="vhodno izhodne naprave, miška, tipkovnica, mikrofon, zaslon, zvočnik">
+	<meta name="author" content="Anja Lampret">
+  </head><!--konec glave-->
+
+<!--Zacetek vsebine-->
+<body>
+
+<header><!--začetek glave spletne srani-->
+    <table class="naslov"><!--tabela s tremi vrsticami in dvema stolpcema, da je bolj pregledno, razred naslov-->
+    <tr><!--vrstica-->
+      <th><h1> Vhodno izhodne naprave</h1></th><!--glavni naslov, prvi stolpec-->
+      <th ><img src="logo_vienote_AnjaLampret.svg" width="200" height="200" class="logo"></th><!--logo, drugi stolpec-->
+    </table><!--konec tabele-->
+</header><!--konec glave spletne strani-->
+
+  <div class="predal"> <!--zacetek razreda predal oz. zacetek menija-->
+    <div class="nav_vrstica">  <!--zacetek razreda navigacijske vrstice-->
+
+      <ul> <!--Zacetek seznama glavnega menija-->
+        <li> <!--Prvi element glavnega menija-->
+          <a href="index.html">Domov</a> <!--Povezava na prvo stran-->
+        </li>
+
+        <li> <!--Drugi element glavnega menija, ki je spustni-->
+          <a href="">Vhodne naprave</a> 
+             <ul class="spustni"> <!--Zacetek menija vhodnih naprav-->
+            <li> 
+              <a href="tipkovnica.html">Tipkovnica</a> <!--Povezava na podstran tipkovnica-->
+            </li>
+            <li> 
+              <a href="miska.html">Miška</a> <!--Povezava na podstran miška-->
+            </li>
+          </ul> <!--Konec menija vhodnih enot-->
+        <li> <!--Tretji element glavnega menija, ki je spustni-->
+            <a href="">Izhodne naprave</span></a> 
+              <ul class="spustni"> <!--Zacetek menija izhodnih enot-->
+              <li> 
+                <a href="zaslon.html">Zaslon</a> <!--Povezava na podstran zaslon-->
+              </li>
+          </ul> <!--Konec menija izhodnih naprav-->
+        </li> <!--Konec drugega elementa glavnega menija-->
+
+        <li> <!--Zadnji element glavnega menija-->
+          <a href="oprojektu.html">O projektu</a> <!--Povezava na podstran o projektu-->
+        </li>
+      </ul> <!--Konec seznama glavnega menija-->
+    </div>
+  </div>
+
+<p class="vsebina"> <!--prvi odstavek-->
+    Vhodno – izhodne naprave so naprave za prenos podatkov med CPE in glavnim pomnilnikom ter zunanjim svetom. 
+    So del strojne opreme, ki nam omogoča komunikacijo z računalnikom.  
+</p>
+
+<p class="vsebina"> <!--Drugi odstavek-->
+    Vhodne naprave pošiljajo računalniku informacije za procesiranje, ne morejo pa sprejemati podatkov. Primeri vhodnih naprav so miška, tipkovnica, mikrofon, spletna kamera, joysticki in drugi pripomočki za igranje igric. 
+</p>
+
+<img src="miska.png" width="150" height="200" class="slika1"> <!--slika 1 miska-->
+
+<img src="tipkovnica.png" width="200" height="200" class="slika2"> <!--slika 2 tipkovnica-->
+
+<img src="joystick.png" width="200" height="200" class="slika2"> <!--slika 3 joystick-->
+
+
+
+<p class="vsebina"> <!--Tretji odstavek-->
+    Ravno obratno funkcijo kot vhodne naprave, imajo izhodne naprave. Izhodne naprave sprejemajo informacije, ki jih dobijo iz računalnika. Te informacije nato reproducirajo oziroma prikažejo uporabniku. Primeri izhodnih naprav pa npr. zaslon, zvočnik, slušalke, projektor. 
+</p>
+
+<img src="zaslon.png" width="200" height="200" class="slika1"> <!--slika 4 zaslon-->
+
+<img src="printer.png" width="200" height="200" class="slika2"> <!--slika 5 printer-->
+
+<img src="zvocnik.png" width="200" height="200" class="slika2"> <!--slika 6 zvocnik-->
+
+
+<p class="vsebina"> <!--cetrti odstavek-->
+  Večina naprav ima ali funkcijo vhodne naprave ali funkcijo izhodne naprave, poznamo pa tudi naprave, ki lahko tako sprejemajo, kot tudi pošiljajo podatke računalniku, to so vhodno - izhodne naprave. Tipična primera sta USB ključek in zaslon na dotik. 
+</p>
+
+<footer><!--noga spletne strani-->
+  <table class="vsebina">
+    <tr><!--vrstica-->
+      <th><!--stolpec-->
+      <p>Vhodno izhodne naprave © 2023 by AnjaL is licensed under CC BY-NC-SA 4.0</p><!--licenca-->
+      </th>
+    </tr>
+  </table><!--konec tabele-->
+</footer><!--konec noge spletne strani-->
+
+</body> <!--Konec telesa-->
+</html> <!--Konec dokumenta html-->

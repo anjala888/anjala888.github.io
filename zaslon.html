@@ -1,0 +1,104 @@
+<!DOCTYPE html> <!--Celoten prvi del je isti, ker sem hotela enotnost spletne strani-->
+<html>
+  <head> <!--Zacetek glave-->
+    <!--Naslov strani-->
+    <title>Vhodno-izhodne naprave</title>
+    <!--Povezava do css-->
+    <link rel="stylesheet" type="text/css" href= "style.css">
+    <!--Osnovni meta podatki-->
+	<meta charset="UTF-8">
+	<meta name="description" content="Vsebina spletne strani: Opis vhodno izhodnih naprav; tipkovnice, miške, mikrofona, zaslona, zvočnika.">
+	<meta name="keywords" content="vhodno izhodne naprave, miška, tipkovnica, mikrofon, zaslon, zvočnik">
+	<meta name="author" content="Anja Lampret">
+  </head><!--konec glave-->
+
+<!--Zacetek vsebine-->
+<body>
+
+<header><!--začetek glave spletne srani-->
+    <table class="naslov"><!--tabela s tremi vrsticami in dvema stolpcema, da je bolj pregledno, razred naslov-->
+    <tr><!--vrstica-->
+      <th><h1> Vhodno izhodne naprave</h1></th><!--glavni naslov, prvi stolpec-->
+      <th ><img src="logo_vienote_AnjaLampret.svg" width="200" height="200" class="logo"></th><!--logo, drugi stolpec-->
+    </table><!--konec tabele-->
+</header><!--konec glave spletne strani-->
+
+  <div class="predal"> <!--zacetek razreda predal oz. zacetek menija-->
+    <div class="nav_vrstica">  <!--zacetek razreda navigacijske vrstice-->
+
+      <ul> <!--Zacetek seznama glavnega menija-->
+        <li> <!--Prvi element glavnega menija-->
+          <a href="index.html">Domov</a> <!--Povezava na prvo stran-->
+        </li>
+
+        <li> <!--Drugi element glavnega menija, ki je spustni-->
+          <a href="">Vhodne naprave</a> 
+             <ul class="spustni"> <!--Zacetek menija vhodnih naprav-->
+            <li> 
+              <a href="tipkovnica.html">Tipkovnica</a> <!--Povezava na podstran tipkovnica-->
+            </li>
+            <li> 
+              <a href="miska.html">Miška</a> <!--Povezava na podstran miška-->
+            </li>
+          </ul> <!--Konec menija vhodnih enot-->
+        <li> <!--Tretji element glavnega menija, ki je spustni-->
+            <a href="">Izhodne naprave</span></a> 
+              <ul class="spustni"> <!--Zacetek menija izhodnih enot-->
+              <li> 
+                <a href="zaslon.html">Zaslon</a> <!--Povezava na podstran zaslon-->
+              </li>
+          </ul> <!--Konec menija izhodnih naprav-->
+        </li> <!--Konec drugega elementa glavnega menija-->
+
+        <li> <!--Zadnji element glavnega menija-->
+          <a href="oprojektu.html">O projektu</a> <!--Povezava na podstran o projektu-->
+        </li>
+      </ul> <!--Konec seznama glavnega menija-->
+    </div>
+  </div>
+
+<div class="vsebina"> <!--Zacetek dela, kjer je razred vsebina-->
+
+<p> <!--Prvi odstavek-->
+Zaslon je naprava, ki prikazuje elektronsko sliko iz pikslov, 
+ki so osvetljeni tako, da prikazujejo slikovne in tekstovne oz. grafične elemente. 
+Piksel oz. slikovna točka je najmanjši naslovljiv del zaslona. 
+Poznamo različne resolucije zaslonov, najbolj razširjena je 1920x1080 pikslov. 
+</p>
+
+<ul> <!--seznam z vrstami tehnologij zaslona-->
+    <h2>Pogoste tehnologije zaslona</h2> <!--"Naslov" seznama h2-->
+    <li> <!--Prvi element seznama-->
+        <h4>CRT (cathode ray tube)</h4> <!--Prvi element seznama, naslov h4-->
+        Včasih je bila bolj razširjena, danes se uporablja bolj redko. 
+        CRT zasloni so veliki in imajo veliko porabo. 
+        Včasih se je CRT tehnologija uporabljala za televizorje.
+    </li>
+    <img src="crt.png" width=200px height=200px class="slika1"> <!--Slika crt zaslona-->
+    <li> <!--Drugi element seznama-->
+        <h4>LCD (Led Crystal Display)</h4> <!--Drugi element seznama, naslov h4-->
+        Je dost tanjši in lažji kot CRT. Uporablja tehnologijo tekočih kristalov. 
+        LCD deluje tako, da svetlobo blokira, ne pa ustvarja. 
+    </li>
+    <img src="lcd.png" width=200px height=200px class="slika1"> <!--Slika lcd zaslona-->
+    <li> <!--Tretji element seznama-->
+        <h4>LED (Light-Emitting Diode)</h4> <!--Tretji element seznama, naslov h4-->
+        LED zaslon je tip LCD, ki uporablja več svetlečih diod kot vir svetlobe. 
+        Tehnologija LED se še razvija, novejši tip LED je OLED oz. organic LED, 
+        ki uporablja organski polimer in pa QLED oz. quantum LED, ki uporablja tehnologijo nanodelcev.
+    </li>
+</ul> <!--Konec seznama-->
+</div> <!--Konec razreda vsebina-->
+
+<footer><!--noga spletne strani-->
+    <table class="vsebina">
+      <tr><!--vrstica-->
+        <th><!--stolpec-->
+        <p>Vhodno izhodne naprave © 2023 by AnjaL is licensed under CC BY-NC-SA 4.0</p><!--licenca-->
+        </th>
+      </tr>
+    </table><!--konec tabele-->
+  </footer><!--konec noge spletne strani-->
+  
+</body> <!--Konec telesa-->
+</html> <!--Konec dokumenta html-->

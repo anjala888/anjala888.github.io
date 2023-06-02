@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.naslov /*Stil naslova*/
+{
+  background: #FFD9C7;
+  margin: auto;
+  padding-left: 500px;
+  padding-right: 300px;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+
+body /*stil za telo strani, barva ozadja, velikost, vrsta, barva pisave*/
+{
+  background: #C7DFF0;
+  font-size: 16px;
+  color: #545454;
+  font-family: monospace;
+}
+
+a { text-decoration: none;
+}
+
+.predal /*stil za razred predal, oz naš meni*/
+{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.nav_vrstica /*stil za navigacijsko vrstico*/
+{
+  display: block;
+  margin-bottom: 15px 0;
+  background: #FF9891;
+  border-radius: 3px;;
+}
+
+.nav_vrstica ul /*stil za seznam razreda navigacijske vrstice*/
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.nav_vrstica li /*stil za elemente seznama razreda navigacijske vrstice*/
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.nav_vrstica li a /*stil za povezave seznama razreda navigacijske vrstice*/
+{
+  padding: 15px 20px;
+  font-size: 20px;
+  color: #ffffff;
+  display: inline-block;
+  outline: 0;
+  font-weight: 400;
+  text-align: left;
+}
+
+.nav_vrstica li:hover ul.spustni {display: block;} /* Da ko gremo skozi meni, se prikaže podmeni*/
+
+.nav_vrstica li ul.spustni /*Stil za spustne povezave v navigacijski vrstici (vhodne, izhodne naprave)*/
+{
+  position: absolute;
+  display: none;
+  width: 200px;
+  background: #FFC09D;
+  padding-top: 0;
+}
+
+.nav_vrstica li ul.spustni li 
+{
+  display: block;
+  list-style-type: none;
+}
+
+.nav_vrstica li ul.spustni li a
+{
+  padding: 15px 20px;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  font-weight: 400;
+}
+
+
+.vsebina /*Stil vsebine*/
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: auto;
+  line-height: 2;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.slika1 /*Stil slike na levi*/
+{
+  padding-left: 400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.slika2 /*Stil slik na sredini in desni*/
+{
+  padding-left: 50px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.licence_slik /*Stil teksta pod slikami za licence */
+{
+  padding-top: 0;
+  padding-bottom: 20px;
+  padding-left: 300px;
+  padding-right: 200px;
+  margin: auto;
+  line-height: 1;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+li /*Zamaknemo elemente seznamov za 40px*/
+{
+  padding-left: 40px;
+}
+
+h2 /*Razmik pred in po naslovi h2 20px*/
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h4 /*Razmik pred in po naslovi h4 10px*/
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Uporabljene barve:
+- ozadje naslova: #FFD9C7 (marelična)
+- ozadje strani: #C7DFF0 (modra)
+- navigacijska vrstica: #FF9891 (roza)
+- spustni meni v navigacijski vrstici: #FFC09D (svetlo oranzna iz logotipa)
+- tekst: #545454 (siva)
+*/
+

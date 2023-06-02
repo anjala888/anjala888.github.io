@@ -1,0 +1,142 @@
+<!DOCTYPE html> <!--Celoten prvi del je isti, ker sem hotela enotnost spletne strani-->
+<html>
+  <head> <!--Zacetek glave-->
+    <!--Naslov strani-->
+    <title>Vhodno-izhodne naprave</title>
+    <!--Povezava do css-->
+    <link rel="stylesheet" type="text/css" href= "style.css">
+    <!--Osnovni meta podatki-->
+	<meta charset="UTF-8">
+	<meta name="description" content="Vsebina spletne strani: Opis vhodno izhodnih naprav; tipkovnice, miške, mikrofona, zaslona, zvočnika.">
+	<meta name="keywords" content="vhodno izhodne naprave, miška, tipkovnica, mikrofon, zaslon, zvočnik">
+	<meta name="author" content="Anja Lampret">
+  </head><!--konec glave-->
+
+<!--Zacetek vsebine-->
+<body>
+
+<header><!--začetek glave spletne srani-->
+    <table class="naslov"><!--tabela s tremi vrsticami in dvema stolpcema, da je bolj pregledno, razred naslov-->
+    <tr><!--vrstica-->
+      <th><h1> Vhodno izhodne naprave</h1></th><!--glavni naslov, prvi stolpec-->
+      <th ><img src="logo_vienote_AnjaLampret.svg" width="200" height="200" class="logo"></th><!--logo, drugi stolpec-->
+    </table><!--konec tabele-->
+</header><!--konec glave spletne strani-->
+
+  <div class="predal"> <!--zacetek razreda predal oz. zacetek menija-->
+    <div class="nav_vrstica">  <!--zacetek razreda navigacijske vrstice-->
+
+      <ul> <!--Zacetek seznama glavnega menija-->
+        <li> <!--Prvi element glavnega menija-->
+          <a href="index.html">Domov</a> <!--Povezava na prvo stran-->
+        </li>
+
+        <li> <!--Drugi element glavnega menija, ki je spustni-->
+          <a href="">Vhodne naprave</a> 
+             <ul class="spustni"> <!--Zacetek menija vhodnih naprav-->
+            <li> 
+              <a href="tipkovnica.html">Tipkovnica</a> <!--Povezava na podstran tipkovnica-->
+            </li>
+            <li> 
+              <a href="miska.html">Miška</a> <!--Povezava na podstran miška-->
+            </li>
+          </ul> <!--Konec menija vhodnih enot-->
+        <li> <!--Tretji element glavnega menija, ki je spustni-->
+            <a href="">Izhodne naprave</span></a> 
+              <ul class="spustni"> <!--Zacetek menija izhodnih enot-->
+              <li> 
+                <a href="zaslon.html">Zaslon</a> <!--Povezava na podstran zaslon-->
+              </li>
+          </ul> <!--Konec menija izhodnih naprav-->
+        </li> <!--Konec drugega elementa glavnega menija-->
+
+        <li> <!--Zadnji element glavnega menija-->
+          <a href="oprojektu.html">O projektu</a> <!--Povezava na podstran o projektu-->
+        </li>
+      </ul> <!--Konec seznama glavnega menija-->
+    </div>
+  </div>
+
+<p class="vsebina"> <!--Prvi odstavek-->
+    Tipkovica je naprava, ki ima procesor in električna vezja, ki nosijo podatke v in iz procesorja.
+     Mreža, oziroma vezje, ki povezuje vse tipke s procesorjem se imenuje matrično vezje tipkovnice. 
+     Pod vsako tipko je v vezju stikalo, ki ga sklenemo, ko pritisnemo na tipko. S tem omogočimo toku, 
+     da gre skozi vezje do procesorja in mu posreduje signal. Nato procesor pridobi kodo za skeniranje 
+     in jo pretvori v binarni zapis ter pošlje v začasni pomnilnik (RAM) v računalniku. 
+     Poznamo več različnih razvrstitev tipk na tipkovnici, najbolj razširjena je QWERTY tipkovnica, 
+     ni pa najbolj učinkovita. QWERTY tipkovnico so izumili za uporabo s pisalnim strojem in je zaradi 
+     svoje uporabe v zgodovini še danes najbolj razširjena. 
+     Izumili so bolj učinkovite alternative, npr. razporeda tipk dvorak in colemak, ki pa se nista uveljavila. 
+</p>
+<img src="qwerty.png" width= 500px height=170px class="slika1"> <!--Slika qwerty tipkovnice-->
+<p class="licence_slik"> Qwerty keyboard layout by Denelson83 is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.</p> <!--Licenca slike-->
+
+<img src="dvorak.png" width=500px height=170px class="slika1"> <!--Slika dvorak tipkovnice, prosta licenca-->
+
+<div class="vsebina"> <!--Zacetek dela, kjer je razred vsebina-->
+
+<p> <!--Drugi odstavek-->
+    Glede na to, kako je registriran pritisk tipke pa ločimo membranske in mehanske tipkovnice.
+</p>
+
+<h2> <!--Podnaslov membranske tipkovnice-->
+Membranske tipkovnice
+</h2>
+
+<p> <!--Tretji odstavek-->
+Membranske tipke imajo pod vrhnjim delom nekakšen gumijast del (kupolo), ki se stisne, 
+ko pritisnemo na tipko in pritiska na električno vezje. 
+Te “kupole” so lahko pod tipkami samostojno ali pa izdelane vse na enem kosu gume. 
+Najpogosteje sta pod tem gumijastim delom še dve membrani, 
+ki se pritisneta skupaj in sprožita signal v vezju. Med njima je tretja membranska plast, ki ju ločuje takrat, 
+ko tipka ni pritisnjena. 
+Takšne tipke so tišje od mehanskih in ne dajo veliko tipne povratne informacije. 
+So bolj razširjene kot mehanske in cenovno bolj dostopne. 
+</p>
+
+<h2> <!--Podnaslov mehanske tipkovnice-->
+Mehanske tipkovnice
+</h2>
+
+<p> <!--cetrti odstavek-->
+Pri mehanski tipkovnici imajo tipke majhno vzmet, ki se stisne ko tipko pritisnemo, ter 
+pozlačen križni kontakt, ki se ob pritisnjeni tipki premakne in poveže vezje. 
+Mehanske tipkovnice imajo zaradi teh majhnih mehanskih delov boljšo tipno povratno informacijo 
+in dolgo življensko dobo, so pa tudi v višjem cenovnem rangu kot membranske.
+</p>
+
+<p> <!--Peti odstavek-->
+Obstaja veliko različnih mehanskih tipk, ki se med seboj razlikujejo po glasnosti in po tem, 
+koliko pritiska moramo dati tipki, da se sproži signal.
+</p>
+
+<ul> <!--seznam z vrstami mehanskih tipk-->
+    Tri glavne vrste so: <!--"Naslov" seznama-->
+    <li> <!--Prvi element seznama-->
+        <h4>rjave (taktilne)</h4> <!--Prvi element seznama, naslov h4-->
+        Ta vrsta tipk ima taktilno povratno informacijo in so srednje glasne, glasnejše kot linearne in tišje kot “clicky” tipke. 
+    </li>
+    <li> <!--Drugi element seznama-->
+        <h4>rdeče (linearne)</h4> <!--Drugi element seznama, naslov h4-->
+        Linarne mehanske tipke so konsistenčne, gladke, brez tipne povratne informacije in so tišje.
+    </li>
+    <li> <!--Tretji element seznama-->
+        <h4>modre ("clicky")</h4> <!--Tretji element seznama, naslov h4-->
+        Imajo še več tipne povratne informacije kakor rjave tipke in so najglasnejše mehanske tipke, sliši se klik.
+    </li>
+
+</ul>
+</div> <!--Konec dela, kjer je razred vsebina-->
+
+<footer><!--noga spletne strani-->
+    <table class="vsebina">
+      <tr><!--vrstica-->
+        <th><!--stolpec-->
+        <p>Vhodno izhodne naprave © 2023 by AnjaL is licensed under CC BY-NC-SA 4.0</p><!--licenca-->
+        </th>
+      </tr>
+    </table><!--konec tabele-->
+  </footer><!--konec noge spletne strani-->
+
+</body>
+</html>
